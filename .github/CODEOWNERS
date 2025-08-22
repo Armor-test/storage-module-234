@@ -1,0 +1,39 @@
+# CODEOWNERS file for storage-module-234
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/squad-cloud @Armor-test/dept-api
+
+# Directory ownership
+/config/ @Armor-test/squad-reporting @Armor-test/team-governance
+/tests/ @Armor-test/unit-test @Armor-test/team-reporting @Armor-test/squad-ux
+/shared/ @Armor-test/team-governance @Armor-test/squad-database @Armor-test/team-security
+/views/ @Armor-test/dept-ui @Armor-test/squad-database @Armor-test/dept-security
+/utils/ @Armor-test/dept-security @Armor-test/grp-api @Armor-test/dept-billing
+/security/ @Armor-test/dept-reporting @Armor-test/squad-frontend @Armor-test/team-governance
+/docs/ @Armor-test/dept-reliability @Armor-test/dept-api @Armor-test/squad-research
+/dist/ @Armor-test/grp-payments @Armor-test/dept-notifications
+/middleware/ @Armor-test/team-security @Armor-test/dept-notifications @Armor-test/squad-apps
+/plugins/ @Armor-test/dept-api @Armor-test/dept-notifications
+/lib/ @Armor-test/team-research @Armor-test/dept-data
+
+# File type ownership
+*.ini @Armor-test/grp-api @Armor-test/dept-release @Armor-test/dept-logging
+*.rb @Armor-test/dept-identity @Armor-test/team-governance @Armor-test/team-logging
+*.php @Armor-test/unit-design @Armor-test/squad-mobile
+*.sql @Armor-test/dept-api @Armor-test/squad-research
+*.toml @Armor-test/unit-design @Armor-test/grp-api @Armor-test/squad-performance
+*.js @Armor-test/squad-search @Armor-test/dept-billing
+*.ts @Armor-test/squad-ux @Armor-test/team-core
+*.rs @Armor-test/squad-payments @Armor-test/dept-reliability
+*.proto @Armor-test/grp-payments @Armor-test/squad-frontend
+*.properties @Armor-test/team-core @Armor-test/squad-product @Armor-test/squad-tooling
+*.jsx @Armor-test/dept-billing @Armor-test/unit-devops
+*.html @Armor-test/team-security @Armor-test/dept-identity
+*.swift @Armor-test/dept-api @Armor-test/squad-ml
+*.yml @Armor-test/dept-reliability @Armor-test/squad-qa @Armor-test/squad-research
+*.cpp @Armor-test/unit-governance @Armor-test/grp-search
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
